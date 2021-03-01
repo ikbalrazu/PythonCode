@@ -1,0 +1,6 @@
+S = input("Enter String: ")
+L = len(S)
+print(L)
+print(*S,sep='|')
+print('='*(L*2-1))
+print(*range(L))
